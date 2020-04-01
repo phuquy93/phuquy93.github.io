@@ -1,0 +1,310 @@
+/*------------------------------------------------------------
+Slide
+------------------------------------------------------------*/
+.slide {
+  position: relative;
+  height: 90vh; }
+  @media only screen and (max-width: 768px) {
+    .slide {
+      height: 350px; } }
+  .slide__inner {
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 0;
+    width: 100%; }
+    @media only screen and (max-width: 768px) {
+      .slide__inner {
+        height: 350px; } }
+  .slide__item {
+    height: 90vh; }
+    @media only screen and (max-width: 768px) {
+      .slide__item {
+        height: 350px; } }
+  .slide__bgmain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+    .slide__bgmain img {
+      width: 100%; }
+  .slide .slick-dots {
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%); }
+    @media only screen and (max-width: 768px) {
+      .slide .slick-dots {
+        bottom: 8%; } }
+    .slide .slick-dots li button {
+      text-indent: -9999px;
+      background: url("../img/index/slide_btn.png") left top no-repeat;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      width: 14px;
+      height: 21px;
+      margin-bottom: 16px; }
+      .slide .slick-dots li button:hover {
+        background: url("../img/index/slide_btn_o.png") left top no-repeat; }
+      @media only screen and (max-width: 768px) {
+        .slide .slick-dots li button {
+          width: 16px;
+          height: 20px;
+          background-size: cover;
+          zoom: .5; } }
+    .slide .slick-dots li.slick-active button {
+      background: url("../img/index/slide_btn_o.png") left top no-repeat; }
+  .slide .slick-track {
+    background-attachment: fixed; }
+
+.content {
+  position: relative; }
+  .content:before {
+    content: "";
+    background: url("../img/index/main_img_bg2.png"); }
+  .content h2 {
+    text-align: center; }
+  .content__topcol {
+    border-bottom: 1px solid #e6e9ec; }
+    @media only screen and (max-width: 768px) {
+      .content__topcol {
+        border-bottom: none; } }
+
+/*------------------------------------------------------------
+PRODUCT 
+------------------------------------------------------------*/
+.product {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 768px) {
+    .product {
+      width: 100%;
+      padding: 0 15px; } }
+  .product h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px; }
+    @media only screen and (max-width: 768px) {
+      .product h2 img {
+        zoom: .8;
+        -moz-transform: scale(0.8); } }
+  .product h3 {
+    margin-bottom: 10px; }
+    @media only screen and (max-width: 768px) {
+      .product h3 {
+        zoom: .8;
+        -moz-transform: scale(0.8); } }
+  .product__content {
+    border: 1px solid #d5dadf;
+    margin-bottom: 32px;
+    padding: 16px 16px 14px 16px;
+    transition: all .2s; }
+    .product__content a {
+      width: 928px;
+      display: block; }
+      @media only screen and (max-width: 768px) {
+        .product__content a {
+          width: 100%; } }
+    .product__content:hover {
+      background-color: #eff2f4;
+      border: 1px solid #eff2f4; }
+      .product__content:hover .name {
+        background: url("../img/index/neo_n_o.png") center center no-repeat; }
+    .product__content .name {
+      text-indent: -9999px;
+      text-align: center;
+      margin: 15px auto 0;
+      background: url("../img/index/neo_n.png") center center no-repeat; }
+    @media only screen and (max-width: 768px) {
+      .product__content {
+        border: none;
+        padding: 0; }
+        .product__content:hover {
+          background: none;
+          border: none; }
+        .product__content img {
+          width: 100%; } }
+  .product__oneday {
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .product__oneday {
+        margin-bottom: 20px; } }
+    .product__oneday.day2 .block2 {
+      width: 462px;
+      margin-right: 35px; }
+      .product__oneday.day2 .block2 a {
+        width: 432px; }
+      .product__oneday.day2 .block2 .name {
+        float: left;
+        width: 54%; }
+      .product__oneday.day2 .block2 .reavlul-link {
+        float: right;
+        margin-top: 10px; }
+      @media only screen and (max-width: 768px) {
+        .product__oneday.day2 .block2 {
+          width: 100%;
+          margin-right: 0; }
+          .product__oneday.day2 .block2 a {
+            width: 100%; } }
+    @media only screen and (max-width: 768px) {
+      .product__oneday.day2 li:nth-child(2) {
+        margin-right: 2%; } }
+    .product__oneday.day2 li:nth-child(3) {
+      margin-right: 0; }
+  .product li {
+    float: left;
+    text-align: center;
+    width: 214px;
+    margin-right: 34px;
+    border: 1px solid #d5dadf;
+    position: relative;
+    transition: all .2s; }
+    @media only screen and (max-width: 768px) {
+      .product li {
+        width: 49%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        border: none; }
+        .product li:nth-child(even) {
+          margin-right: 0; } }
+    .product li:hover .name.prime {
+      background: url("../img/index/prime_n_o.png") center top no-repeat; }
+    .product li:hover .name.aqua {
+      background: url("../img/index/aqua-moist_n_o.png") center top no-repeat; }
+    .product li:hover .name.smt {
+      background: url("../img/index/aqua-smt_n_o.png") center top no-repeat; }
+    .product li:hover .name.realuv {
+      background: url("../img/index/realuv-toric_n_o.png") center top no-repeat; }
+    .product li:hover .name.vif {
+      background: url("../img/index/vif_n_o.png") center top no-repeat; }
+    .product li:hover .name.realuvn {
+      background: url("../img/index/realuv_n_o.png") center top no-repeat; }
+    .product li:hover .name.aire14 {
+      background: url("../img/index/aire14_n_o.png") center top no-repeat; }
+    .product li:hover .name.vuety {
+      background: url("../img/index/2w-vuety_n_o.png") center top no-repeat; }
+    .product li:hover .name.aire30 {
+      background: url("../img/index/aire30_n_o.png") center top no-repeat; }
+    .product li:hover .name.aicelulasoft {
+      background: url("../img/index/aicelulasoft_n_o.png") center top no-repeat; }
+    .product li a {
+      padding: 16px 16px 14px 14px;
+      display: block;
+      width: 184px; }
+      @media only screen and (max-width: 768px) {
+        .product li a {
+          width: 100%;
+          padding: 0; }
+          .product li a img {
+            width: 100%; } }
+    .product li .name {
+      margin-top: 15px;
+      text-indent: -9999px;
+      transition: all .2s; }
+      .product li .name.prime {
+        background: url("../img/index/prime_n.png") center top no-repeat; }
+      .product li .name.aqua {
+        background: url("../img/index/aqua-moist_n.png") center top no-repeat; }
+      .product li .name.smt {
+        background: url("../img/index/aqua-smt_n.png") center top no-repeat; }
+      .product li .name.realuv {
+        background: url("../img/index/realuv-toric_n.png") center top no-repeat; }
+      .product li .name.vif {
+        background: url("../img/index/vif_n.png") center top no-repeat; }
+      .product li .name.realuvn {
+        background: url("../img/index/realuv_n.png") center top no-repeat; }
+      .product li .name.aire14 {
+        background: url("../img/index/aire14_n.png") center top no-repeat; }
+      .product li .name.vuety {
+        background: url("../img/index/2w-vuety_n.png") center top no-repeat; }
+      .product li .name.aire30 {
+        background: url("../img/index/aire30_n.png") center top no-repeat; }
+      .product li .name.aicelulasoft {
+        background: url("../img/index/aicelulasoft_n.png") center top no-repeat; }
+    .product li .icn {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      @media only screen and (max-width: 768px) {
+        .product li .icn {
+          bottom: 4%;
+          top: auto;
+          right: 0;
+          left: 0;
+          width: 95%;
+          margin: 0 auto; }
+          .product li .icn img {
+            zoom: 100%;
+            -moz-transform: scale(100%); } }
+  .product__twoweek, .product__monthly, .product__conventional {
+    float: left;
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .product__twoweek, .product__monthly, .product__conventional {
+        margin-bottom: 20px; } }
+  @media only screen and (max-width: 768px) {
+    .product__twoweek {
+      margin-bottom: 4%;
+      float: none; } }
+  @media only screen and (max-width: 768px) {
+    .product__monthly {
+      width: 49%;
+      margin-right: 2%; }
+      .product__monthly li {
+        width: 100%; } }
+  .product__conventional li {
+    margin-right: 0; }
+  @media only screen and (max-width: 768px) {
+    .product__conventional {
+      width: 49%; }
+      .product__conventional li {
+        width: 100%; } }
+
+/*------------------------------------------------------------
+LINK
+------------------------------------------------------------*/
+.link {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e6e9ec; }
+  @media only screen and (max-width: 768px) {
+    .link {
+      display: none; } }
+  .link li {
+    width: 20%;
+    height: 428px;
+    float: left;
+    border-right: 1px solid #e6e9ec;
+    transition: all .3s; }
+    .link li:hover {
+      background: #eff2f4; }
+  .link a {
+    height: 428px;
+    width: 100%;
+    display: block;
+    text-indent: -9999px; }
+  .link__lens a {
+    background: url("../img/index/btn_lens.png") center center no-repeat; }
+  .link__faq a {
+    background: url("../img/index/btn_faq.png") center center no-repeat; }
+  .link__dl a {
+    background: url("../img/index/btn_dl.png") center center no-repeat; }
+  .link__about a {
+    background: url("../img/index/btn_about.png") center center no-repeat; }
+  .link__oem a {
+    background: url("../img/index/btn_oem.png") center center no-repeat; }
+
+/*------------------------------------------------------------
+VISION
+------------------------------------------------------------*/
+.vision {
+  background: url("../img/index/vision_bg2.jpg") center center no-repeat;
+  background-size: auto 100%;
+  height: 340px;
+  width: 100%;
+  min-width: 960px; }
+  @media only screen and (max-width: 768px) {
+    .vision {
+      display: none; } }

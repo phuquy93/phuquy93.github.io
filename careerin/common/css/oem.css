@@ -1,0 +1,248 @@
+.oem {
+  padding-top: 132px;
+}
+.oem__lead {
+  margin-top: 6px;
+}
+
+.oem__lead p {
+  line-height: 28px;
+  font-size: 1.2rem;
+}
+
+.oem__box {
+  border-top: 1px solid #d5dadf;
+  padding-top: 57px;
+  margin-top: 54px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.oem__box h2 {
+  padding-bottom: 30px;
+}
+
+.oem__box h3 {
+  padding-bottom: 23px;
+  font-size: 14px;
+  line-height: 1em;
+  color: #699ec7;
+}
+
+.oem__box .tel {
+  height: 29px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oem__box .tel:before {
+  content: '';
+  background: url("../img/oem/icon_tel.png") no-repeat center;
+  width: 34px;
+  height: 29px;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.oem__box .att {
+  margin-top: 6px;
+  line-height: 28px;
+}
+
+.oem__box .list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 21px;
+}
+.oem__box .list:nth-child(2n){
+  padding-bottom: 0;
+}
+
+.oem__box .list li {
+  width: 291px;
+  padding-top: 12px;
+}
+
+.oem__box .list li.left {
+  margin-left: 20px;
+  padding-left: 20px;
+  background: url("../img/oem/line_dot_h.gif") 0 0 repeat-y;
+}
+
+.oem__box .list p {
+  font-size: 1.1rem;
+  line-height: 20px;
+}
+
+.oem__feature h4, .oem__feature h5 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oem__feature h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: -3px;
+}
+
+.oem__feature h4:before {
+  content: '';
+  width: 28px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.oem__feature h5 {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.oem__feature h5:before {
+  content: '';
+  background: url("../img/oem/icn_round.gif") no-repeat center;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.oem__feature strong {
+  color: #699ec7;
+}
+
+.oem__feature .s-font {
+  font-size: 10px;
+  color: #737373;
+  line-height: 20px;
+  margin-bottom: 26px;
+}
+
+.oem__feature .image-list {
+  margin-top: 33px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.oem__feature--md {
+  margin-top: 60px;
+}
+
+.oem__head {
+  margin-bottom: 37px;
+}
+
+.oem__head:before {
+  background: url("../img/oem/feature1.png") no-repeat center;
+  background-size: cover;
+}
+
+.oem__head--md {
+  margin-bottom: 15px;
+}
+
+.oem__head--md:before {
+  background: url("../img/oem/feature2.png") no-repeat center;
+  background-size: cover;
+}
+
+.oem__history {
+  overflow-y: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.oem__history dl {
+  width: 690px;
+  position: relative;
+}
+
+.oem__history dl:after {
+  content: '';
+  background: url("../img/oem/line_dot_b.gif") repeat-x;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.oem__history dt, .oem__history dd {
+  padding: 13px 0;
+  position: relative;
+}
+
+.oem__history dt:before, .oem__history dd:before {
+  content: '';
+  background: url("../img/oem/line_dot_b.gif") repeat-x;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.oem__history dt {
+  float: left;
+  clear: both;
+  width: 85px;
+}
+
+.oem__history dt:after {
+  content: '';
+  background: url("../img/oem/history_bg_top.png") no-repeat center left;
+  width: 20px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.oem__history dd {
+  margin-left: 85px;
+  width: calc(100% - 85px);
+}
+
+.oem__history li {
+  margin-bottom: 35px;
+}
+
+.oem__faq {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background: url("../img/oem/line_dot_b.gif") right top repeat-x;
+}
+
+.oem__faq span {
+  color: #699ec7;
+  padding-right: 6px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.oem__faq dd {
+  margin-top: 10px;
+  padding-left: 23px;
+  text-indent: -23px;
+}

@@ -1,0 +1,268 @@
+/*------------------------------------------------------------
+CONTACT
+------------------------------------------------------------*/
+.contact {
+  padding-top: 150px; }
+  @media only screen and (max-width: 768px) {
+    .contact {
+      padding-top: 50px; }
+      .contact .content {
+        padding-bottom: 80px; }
+      .contact .toparea__inner {
+        height: 100%; }
+      .contact .breadcrumb {
+        justify-content: flex-start;
+        margin-top: 0; }
+      .contact .toparea__inner h1 {
+        padding: 0 10px 10px 10px;
+        position: relative;
+        margin-bottom: 20px; }
+        .contact .toparea__inner h1:after {
+          content: "";
+          height: 3px;
+          width: 100px;
+          position: absolute;
+          background: #b1cee3;
+          left: 10px;
+          bottom: 0; }
+      .contact .toparea__inner a img {
+        zoom: .7;
+        width: auto; } }
+  @media only screen and (max-width: 768px) {
+    .contact .sidebar {
+      display: block;
+      width: 100%; }
+      .contact .sidebar li {
+        background: none;
+        border-bottom: 1px dotted #70a1c9;
+        padding: 10px; }
+        .contact .sidebar li:after {
+          background: none; } }
+  .contact h2 {
+    padding-top: 13px;
+    padding-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .contact h2 {
+        padding: 13px 10px 10px; }
+        .contact h2 img {
+          zoom: .7; } }
+  .contact__box {
+    border-top: 1px solid #d5dadf;
+    padding: 30px 0; }
+    @media only screen and (max-width: 768px) {
+      .contact__box {
+        padding: 10px; } }
+    .contact__box h3 {
+      font-size: 1.4rem;
+      color: #699ec7;
+      padding-bottom: 25px; }
+      @media only screen and (max-width: 768px) {
+        .contact__box h3 {
+          font-size: 1.3rem;
+          padding-bottom: 10px; } }
+    .contact__box .tel {
+      font-size: 3rem;
+      font-weight: bold;
+      background: url("../img/contact/icn_freedial.gif") no-repeat;
+      background-position: 0 5px;
+      padding-left: 75px; }
+      @media only screen and (max-width: 768px) {
+        .contact__box .tel {
+          font-size: 2rem;
+          background-position: 0; } }
+    .contact__box .time {
+      font-size: 1.2rem;
+      line-height: 28px;
+      padding: 10px 0 5px; }
+      @media only screen and (max-width: 768px) {
+        .contact__box .time {
+          font-size: 1rem;
+          line-height: 20px; } }
+    .contact__box li {
+      font-size: 1rem;
+      line-height: 20px;
+      text-indent: -14px;
+      padding-left: 14px;
+      padding-top: 8px; }
+    .contact__box h4 {
+      margin-bottom: 25px;
+      font-size: 1.4rem;
+      background: url("../img/contact/icn_round.gif") left center no-repeat;
+      padding-left: 15px; }
+      @media only screen and (max-width: 768px) {
+        .contact__box h4 {
+          font-size: 1.2rem;
+          margin-bottom: 15px; } }
+    .contact__box .text {
+      font-size: 1.2rem; }
+      @media only screen and (max-width: 768px) {
+        .contact__box .text {
+          font-size: 1rem; } }
+  .contact .faq__inner {
+    border-bottom: 1px solid #d5dadf; }
+    @media only screen and (max-width: 768px) {
+      .contact .faq__inner {
+        margin-bottom: 30px; } }
+  .contact .faq__question {
+    cursor: pointer;
+    border-top: 1px solid #d5dadf;
+    padding: 25px 20px 25px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    background: url("../img/contact/faq/icn_down.gif") right center no-repeat;
+    background-position: 98% 50%; }
+    @media only screen and (max-width: 768px) {
+      .contact .faq__question {
+        padding: 25px 35px 25px 10px;
+        font-size: 1.1rem;
+        line-height: 18px;
+        background-position: 97% 50%; } }
+    .contact .faq__question span {
+      color: #699ec7;
+      padding-right: 3px; }
+    .contact .faq__question.is-active {
+      background: url("../img/contact/faq/icn_up.gif") right center no-repeat;
+      background-position: 98% 50%; }
+      @media only screen and (max-width: 768px) {
+        .contact .faq__question.is-active {
+          background-position: 97% 50%; } }
+  .contact .faq__answer {
+    padding-bottom: 25px; }
+    .contact .faq__answer p {
+      font-size: 1.2rem;
+      line-height: 20px;
+      padding: 0 50px 0 41px;
+      text-indent: -14px; }
+      .contact .faq__answer p span {
+        color: #699ec7; }
+      @media only screen and (max-width: 768px) {
+        .contact .faq__answer p {
+          font-size: 1.1rem;
+          line-height: 18px;
+          padding: 0 30px 0 30px; } }
+    .contact .faq__answer a {
+      color: #699ec7;
+      text-decoration: underline; }
+      .contact .faq__answer a:hover {
+        text-decoration: none; }
+  .contact__shop .text {
+    float: left;
+    width: 378px;
+    font-size: 1.4rem;
+    line-height: 28px; }
+    @media only screen and (max-width: 768px) {
+      .contact__shop .text {
+        font-size: 1.1rem;
+        line-height: 20px;
+        padding: 0 10px;
+        width: 100%; } }
+  .contact__shop .img {
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 235px; }
+    .contact__shop .img img {
+      max-width: 100%;
+      zoom: .5; }
+    @media only screen and (max-width: 768px) {
+      .contact__shop .img {
+        float: none;
+        width: 100%;
+        text-align: center; } }
+  .contact__shop ul {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%; }
+  @media only screen and (max-width: 768px) {
+    .contact__shop li {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+  .contact__shop li span {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 12px 0 12px 15px; }
+    @media only screen and (max-width: 768px) {
+      .contact__shop li span {
+        padding: 12px 0 12px 10px;
+        width: 100px;
+        font-size: 1rem; } }
+    @media only screen and (max-width: 480px) {
+      .contact__shop li span {
+        width: 75px;
+        font-size: .9rem; } }
+  .contact__shop li a {
+    color: #699ec7;
+    text-decoration: underline;
+    padding-right: 20px; }
+    @media only screen and (max-width: 768px) {
+      .contact__shop li a {
+        padding-right: 8px;
+        font-size: .8rem; } }
+    .contact__shop li a:hover {
+      text-decoration: none; }
+  .contact__shop li:nth-child(odd) {
+    background: #f5f5f5; }
+  .contact__manual h3, .contact__notebook h3 {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #699ec7; }
+    @media only screen and (max-width: 768px) {
+      .contact__manual h3, .contact__notebook h3 {
+        font-size: 1.2rem;
+        padding-left: 10px; } }
+  .contact__manual ul, .contact__notebook ul {
+    border-top: 1px solid #d5dadf; }
+  .contact__manual li, .contact__notebook li {
+    border-bottom: 1px solid #d5dadf;
+    padding: 25px 0;
+    font-size: 1.2rem; }
+    @media only screen and (max-width: 768px) {
+      .contact__manual li, .contact__notebook li {
+        padding: 15px 10px;
+        font-size: 1rem; } }
+    .contact__manual li .name, .contact__notebook li .name {
+      float: left; }
+      @media only screen and (max-width: 768px) {
+        .contact__manual li .name, .contact__notebook li .name {
+          width: 180px; } }
+    .contact__manual li .pdf, .contact__notebook li .pdf {
+      float: right;
+      padding-right: 25px; }
+      @media only screen and (max-width: 768px) {
+        .contact__manual li .pdf, .contact__notebook li .pdf {
+          width: 100px; } }
+    .contact__manual li a, .contact__notebook li a {
+      font-size: 1.2rem;
+      padding-left: 25px;
+      padding-right: 8px;
+      color: #699ec7;
+      text-decoration: underline;
+      background: url("../img/contact/manual/icn_pdf.gif") left top no-repeat; }
+      .contact__manual li a:hover, .contact__notebook li a:hover {
+        text-decoration: none; }
+      .contact__manual li a:last-child, .contact__notebook li a:last-child {
+        padding-right: 0; }
+    .contact__manual li:after, .contact__notebook li:after {
+      content: "";
+      clear: both;
+      display: block; }
+  .contact__manual section, .contact__notebook section {
+    margin-bottom: 70px; }
+    @media only screen and (max-width: 768px) {
+      .contact__manual section, .contact__notebook section {
+        margin-bottom: 40px; } }
+    .contact__manual section:last-child, .contact__notebook section:last-child {
+      margin-bottom: 0; }
+  .contact__notebook ul {
+    margin-bottom: 70px; }
+    @media only screen and (max-width: 768px) {
+      .contact__notebook ul {
+        margin-bottom: 0; } }

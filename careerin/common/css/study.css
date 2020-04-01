@@ -1,0 +1,1144 @@
+p.text.pb0 {
+  padding-bottom: 0; }
+
+/*------------------------------------------------------------
+STUDY
+------------------------------------------------------------*/
+.main h2 {
+  margin-bottom: 40px; }
+
+.study {
+  padding-top: 150px; }
+  @media only screen and (max-width: 768px) {
+    .study {
+      padding-top: 50px; }
+      .study h3 img {
+        zoom: .7; }
+      .study h4 {
+        margin: 0 10px;
+        font-size: 1.2rem; }
+      .study h2 img {
+        zoom: .7; }
+      .study .content {
+        padding-bottom: 80px; }
+      .study .toparea__inner {
+        height: 100%; }
+      .study .breadcrumb {
+        justify-content: flex-start;
+        margin-top: 0; } }
+    @media only screen and (max-width: 768px) and (max-width: 768px) {
+      .study .breadcrumb {
+        padding: 5px 0;
+        border-left: none;
+        border-right: none; } }
+  @media only screen and (max-width: 768px) {
+      .study .toparea__inner h1 {
+        padding: 0 10px 10px 10px;
+        position: relative;
+        margin-bottom: 20px; }
+        .study .toparea__inner h1:after {
+          content: "";
+          height: 3px;
+          width: 100px;
+          position: absolute;
+          background: #b1cee3;
+          left: 10px;
+          bottom: 0; }
+      .study .toparea__inner a img {
+        zoom: .7;
+        width: auto; } }
+  @media only screen and (max-width: 480px) {
+    .study h4 {
+      text-align: center; } }
+  .study .sidebar a {
+    display: block;
+    font-size: 1.3rem;
+    color: #292929; }
+    @media only screen and (max-width: 768px) {
+      .study .sidebar a {
+        font-size: 1.1rem; } }
+    .study .sidebar a:hover {
+      color: #70a1c9; }
+  .study .sidebar li {
+    background: url("../img/info/snav_bg.gif") center left no-repeat; }
+    @media only screen and (max-width: 768px) {
+      .study .sidebar li {
+        background: none;
+        border-bottom: 1px dotted #70a1c9;
+        padding: 10px 0; } }
+    .study .sidebar li:after {
+      background: none; }
+    .study .sidebar li.active {
+      background: url("../img/info/snav_bg_o.gif") center left no-repeat; }
+      .study .sidebar li.active a {
+        color: #fff;
+        background-color: #b1cee3; }
+      @media only screen and (max-width: 768px) {
+        .study .sidebar li.active {
+          background: #b1cee3; } }
+    .study .sidebar li.no-dot {
+      background: none; }
+  @media only screen and (max-width: 768px) {
+    .study .sidebar {
+      display: block;
+      width: 100%; }
+      .study .sidebar__inner img {
+        zoom: 80%; }
+      .study .sidebar .linkPage {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px 0 30px; }
+        .study .sidebar .linkPage a {
+          display: block;
+          border: 1px solid #292929;
+          color: #292929;
+          font-weight: 500;
+          padding: 8px;
+          text-align: center;
+          margin: 5px 5px;
+          font-size: 1rem; }
+          .study .sidebar .linkPage a:hover {
+            text-decoration: underline; } }
+  @media only screen and (max-width: 768px) {
+    .study__top img {
+      width: 100%; } }
+  .study__link {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 30px; }
+    @media only screen and (max-width: 768px) {
+      .study__link {
+        flex-wrap: wrap; } }
+    .study__link li:nth-child(1) {
+      background: url("../img/study/btn_first.png") repeat-y center right;
+      width: 192px;
+      height: 256px;
+      transition: all .2s; }
+      .study__link li:nth-child(1):hover {
+        background: #eff2f4 url("../img/study/btn_first.png") repeat-y center right; }
+      @media only screen and (max-width: 768px) {
+        .study__link li:nth-child(1) {
+          width: 33.333%;
+          height: 200px;
+          border-bottom: 1px solid #ddd;
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat; }
+          .study__link li:nth-child(1):hover {
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; } }
+      @media only screen and (max-width: 480px) {
+        .study__link li:nth-child(1) {
+          width: 50%; } }
+    .study__link li:nth-child(2) {
+      background: url("../img/study/btn_knowledge.png") repeat-y center right;
+      width: 192px;
+      height: 256px;
+      transition: all .2s; }
+      .study__link li:nth-child(2):hover {
+        background: #eff2f4 url("../img/study/btn_knowledge.png") repeat-y center right; }
+      @media only screen and (max-width: 768px) {
+        .study__link li:nth-child(2) {
+          width: 33.333%;
+          height: 200px;
+          border-bottom: 1px solid #ddd;
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat; }
+          .study__link li:nth-child(2):hover {
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; } }
+      @media only screen and (max-width: 480px) {
+        .study__link li:nth-child(2) {
+          width: 50%; } }
+    .study__link li:nth-child(3) {
+      background: url("../img/study/btn_wearing.png") repeat-y center right;
+      width: 192px;
+      height: 256px;
+      transition: all .2s; }
+      .study__link li:nth-child(3):hover {
+        background: #eff2f4 url("../img/study/btn_wearing.png") repeat-y center right; }
+      @media only screen and (max-width: 768px) {
+        .study__link li:nth-child(3) {
+          width: 33.333%;
+          height: 200px;
+          border-bottom: 1px solid #ddd;
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat; }
+          .study__link li:nth-child(3):hover {
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; } }
+      @media only screen and (max-width: 480px) {
+        .study__link li:nth-child(3) {
+          width: 50%; } }
+    .study__link li:nth-child(4) {
+      background: url("../img/study/btn_care.png") repeat-y center right;
+      width: 192px;
+      height: 256px;
+      transition: all .2s; }
+      .study__link li:nth-child(4):hover {
+        background: #eff2f4 url("../img/study/btn_care.png") repeat-y center right; }
+      @media only screen and (max-width: 768px) {
+        .study__link li:nth-child(4) {
+          width: 33.333%;
+          height: 200px;
+          border-bottom: 1px solid #ddd;
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat; }
+          .study__link li:nth-child(4):hover {
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; } }
+      @media only screen and (max-width: 480px) {
+        .study__link li:nth-child(4) {
+          width: 50%; } }
+    .study__link li:nth-child(5) {
+      background: url("../img/study/btn_trouble.png") repeat-y center right;
+      width: 192px;
+      height: 256px;
+      transition: all .2s; }
+      .study__link li:nth-child(5):hover {
+        background: #eff2f4 url("../img/study/btn_trouble.png") repeat-y center right; }
+      @media only screen and (max-width: 768px) {
+        .study__link li:nth-child(5) {
+          width: 33.333%;
+          height: 200px;
+          border-bottom: 1px solid #ddd;
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          border-right: 1px solid #ddd; }
+          .study__link li:nth-child(5):hover {
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat; } }
+      @media only screen and (max-width: 480px) {
+        .study__link li:nth-child(5) {
+          width: 50%; } }
+      .study__link li:nth-child(5) a {
+        padding-top: 180px; }
+        @media only screen and (max-width: 768px) {
+          .study__link li:nth-child(5) a {
+            padding-top: 140px; } }
+    .study__link a {
+      display: block;
+      color: #292929;
+      font-size: 1.1rem;
+      line-height: 20px;
+      padding-top: 170px;
+      text-align: center; }
+      @media only screen and (max-width: 768px) {
+        .study__link a {
+          line-height: 18px;
+          padding-top: 130px; } }
+  .study__go {
+    border-top: 1px solid #d5dadf;
+    margin-top: 51px;
+    padding-top: 58px; }
+    .study__go h3 {
+      padding-bottom: 35px; }
+      @media only screen and (max-width: 768px) {
+        .study__go h3 {
+          padding: 0 10px 20px 10px; }
+          .study__go h3 img {
+            zoom: 70%; } }
+    @media only screen and (max-width: 768px) {
+      .study__go {
+        margin-top: 25px;
+        padding-top: 25px; }
+        .study__go h4 img {
+          width: 100%; } }
+  @media only screen and (max-width: 768px) {
+    .study__first h2 {
+      margin-bottom: 20px; }
+      .study__first h2 img {
+        zoom: .7; } }
+  .study__first .text01 {
+    font-size: 1.4rem;
+    line-height: 28px;
+    padding-left: 5px;
+    padding-right: 5px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .text01 {
+        font-size: .9rem;
+        line-height: 15px;
+        padding: 0 10px; } }
+  .study__first .merit {
+    padding: 30px 0 25px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .merit {
+        padding: 20px 10px;
+        max-width: 100%; } }
+  .study__first .study__inner {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 14px 28px 30px 28px;
+    margin-bottom: 25px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .study__inner {
+        margin: 0 10px 10px 10px;
+        padding: 5px 15px 15px 15px; } }
+    .study__first .study__inner .img03 {
+      padding-top: 35px; }
+      @media only screen and (max-width: 768px) {
+        .study__first .study__inner .img03 {
+          max-width: 100%; } }
+    .study__first .study__inner p {
+      font-size: 1.2rem;
+      line-height: 20px; }
+      @media only screen and (max-width: 768px) {
+        .study__first .study__inner p {
+          font-size: .9rem;
+          line-height: 15px; }
+          .study__first .study__inner p img {
+            max-width: 100%; } }
+      .study__first .study__inner p.img {
+        padding-top: 10px; }
+    .study__first .study__inner ul {
+      padding: 25px 0 5px; }
+      @media only screen and (max-width: 768px) {
+        .study__first .study__inner ul {
+          text-align: center; } }
+    .study__first .study__inner li {
+      float: left;
+      display: inline-block;
+      margin-right: 20px; }
+      .study__first .study__inner li:last-child {
+        margin-right: 0; }
+      @media only screen and (max-width: 768px) {
+        .study__first .study__inner li {
+          float: none;
+          margin: 0 0 10px 0; } }
+    .study__first .study__inner a {
+      display: inline-block; }
+      @media only screen and (max-width: 768px) {
+        .study__first .study__inner a img {
+          max-width: 100%;
+          zoom: .7; } }
+  .study__first .study__question {
+    height: 48px;
+    margin: 30px 0 10px;
+    cursor: pointer; }
+    @media only screen and (max-width: 768px) {
+      .study__first .study__question {
+        margin: 20px 0 0;
+        height: 35px; }
+        .study__first .study__question img {
+          max-width: 100%; } }
+  .study__first table {
+    margin: 5px 0px 7px 0px;
+    border-top: 1px solid #d5dadf;
+    border-left: 1px solid #d5dadf;
+    font-size: 1.2rem;
+    border-spacing: inherit; }
+    @media only screen and (max-width: 768px) {
+      .study__first table {
+        font-size: .7rem; } }
+  .study__first th {
+    width: 118px;
+    padding: 11px 0px 11px 0px;
+    border-right: 1px solid #d5dadf;
+    border-bottom: 1px solid #d5dadf;
+    font-weight: bold; }
+    @media only screen and (max-width: 768px) {
+      .study__first th {
+        padding: 6px 0 6px 0; } }
+    .study__first th.cl01 {
+      text-align: left;
+      width: 156px;
+      padding-left: 14px; }
+      @media only screen and (max-width: 768px) {
+        .study__first th.cl01 {
+          padding-left: 8px; } }
+  .study__first td {
+    width: 118px;
+    padding: 11px 0px 11px 0px;
+    border-right: 1px solid #d5dadf;
+    border-bottom: 1px solid #d5dadf;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 100; }
+  .study__first .border_slanted {
+    background: url("../img/study/table_slanted.gif") center center no-repeat;
+    padding: 19px 0 14px 0; }
+    @media only screen and (max-width: 768px) {
+      .study__first .border_slanted {
+        padding: 14px 0; } }
+  .study__first .note01 {
+    padding-bottom: 25px;
+    text-align: right;
+    color: #737373;
+    font-size: 11px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .note01 {
+        padding-bottom: 5px; } }
+  .study__first .note02 {
+    padding-left: 310px;
+    color: #737373;
+    font-size: 11px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .note02 {
+        padding-left: 0; } }
+  .study__first .study__answer {
+    margin-top: 25px; }
+    @media only screen and (max-width: 768px) {
+      .study__first .study__answer p {
+        font-size: .7rem; } }
+  .study__question {
+    position: relative; }
+    .study__question .close {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .study__question.is-open img.close {
+      display: none; }
+  @media only screen and (max-width: 768px) {
+    .study__knowledge h2 img {
+      zoom: .7; } }
+  .study__knowledge h4 {
+    font-size: 14px;
+    color: #699ec7; }
+  .study__knowledge .text {
+    font-size: 1.4rem;
+    line-height: 28px;
+    padding-bottom: 30px; }
+    .study__knowledge .text:last-child {
+      padding-bottom: 0; }
+    @media only screen and (max-width: 768px) {
+      .study__knowledge .text {
+        font-size: 1.1rem;
+        line-height: 20px;
+        padding: 0 10px 10px; } }
+  .study__word {
+    border-bottom: 1px solid #d5dadf;
+    margin-bottom: 60px;
+    padding-bottom: 60px; }
+    @media only screen and (max-width: 768px) {
+      .study__word {
+        margin-bottom: 25px;
+        padding-bottom: 25px; } }
+    .study__word h3 {
+      padding-bottom: 35px; }
+      @media only screen and (max-width: 768px) {
+        .study__word h3 {
+          padding: 0 10px 0 10px; } }
+    .study__word h4 {
+      margin-top: 35px;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+      color: #699ec7; }
+      @media only screen and (max-width: 768px) {
+        .study__word h4 {
+          margin-top: 15px; } }
+    .study__word .img01 {
+      padding: 0 32px 20px 32px; }
+      @media only screen and (max-width: 768px) {
+        .study__word .img01 {
+          padding-top: 10px;
+          zoom: .5; } }
+    .study__word li {
+      font-size: 1.2rem;
+      font-weight: normal;
+      padding: 10px 14px; }
+      @media only screen and (max-width: 768px) {
+        .study__word li {
+          font-size: 1.1rem;
+          display: flex;
+          padding: 10px 12px; } }
+      @media only screen and (max-width: 480px) {
+        .study__word li {
+          font-size: .9rem; } }
+      .study__word li span {
+        font-weight: bold;
+        width: 160px;
+        display: inline-block; }
+        @media only screen and (max-width: 768px) {
+          .study__word li span {
+            max-width: 130px;
+            padding-left: 0; } }
+        @media only screen and (max-width: 480px) {
+          .study__word li span {
+            max-width: 90px; } }
+      .study__word li:nth-child(odd) {
+        background: #f5f5f5; }
+  .study__merit {
+    border-bottom: 1px solid #d5dadf;
+    margin-bottom: 60px;
+    padding-bottom: 60px; }
+    @media only screen and (max-width: 768px) {
+      .study__merit {
+        margin-bottom: 25px;
+        padding-bottom: 25px; } }
+    .study__merit h4 {
+      padding-top: 30px;
+      margin-bottom: 3px; }
+      @media only screen and (max-width: 768px) {
+        .study__merit h4 {
+          padding-top: 10px; } }
+    .study__merit .text_l {
+      float: left;
+      width: 340px;
+      font-size: 1.4rem;
+      line-height: 28px; }
+      @media only screen and (max-width: 768px) {
+        .study__merit .text_l {
+          font-size: 1.1rem;
+          line-height: 20px;
+          padding: 10px;
+          width: 100%; } }
+    .study__merit .img_r {
+      float: right;
+      margin-top: -22px;
+      margin-bottom: 40px; }
+      @media only screen and (max-width: 768px) {
+        .study__merit .img_r {
+          float: none;
+          padding: 0 10px;
+          margin-bottom: 20px;
+          text-align: center; }
+          .study__merit .img_r img {
+            zoom: .7; } }
+    .study__merit table {
+      font-size: 1.2rem;
+      border-spacing: inherit;
+      border-top: 1px solid #d5dadf;
+      border-left: 1px solid #d5dadf;
+      margin: 10px 0 25px 0; }
+      @media only screen and (max-width: 768px) {
+        .study__merit table {
+          margin: 0 10px;
+          font-size: 1.1rem; } }
+      @media only screen and (max-width: 480px) {
+        .study__merit table {
+          font-size: .9rem; } }
+    .study__merit th {
+      border-right: 1px solid #d5dadf;
+      border-bottom: 1px solid #d5dadf;
+      padding: 12px 0px 10px 0px;
+      font-weight: bold;
+      width: 100px; }
+      .study__merit th.cl01 {
+        width: 105px; }
+      .study__merit th.border_slanted {
+        background: url("../img/study/table_slanted.gif") center center no-repeat; }
+    .study__merit td {
+      width: 100px;
+      padding: 10px 0px 10px 0px;
+      border-right: 1px solid #d5dadf;
+      border-bottom: 1px solid #d5dadf;
+      text-align: center;
+      font-weight: 100; }
+  .study__question.oxygen {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 100%;
+    height: 51px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background: url("../img/study/knowledge/knowledge_oxygen_ttl.gif") center top no-repeat; }
+    @media only screen and (max-width: 768px) {
+      .study__question.oxygen {
+        background-size: cover;
+        height: 30px;
+        padding: 0 10px; } }
+  .study__question.is-open.oxygen {
+    background: url("../img/study/knowledge/knowledge_oxygen_ttl_o.gif") center top no-repeat; }
+    @media only screen and (max-width: 768px) {
+      .study__question.is-open.oxygen {
+        background-size: contain;
+        background-position: center center;
+        height: auto; } }
+  .study__answer.oxygen {
+    margin-bottom: 20px; }
+    .study__answer.oxygen li {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      .study__answer.oxygen li img {
+        padding-bottom: 20px; }
+      @media only screen and (max-width: 768px) {
+        .study__answer.oxygen li {
+          width: 100%;
+          padding-bottom: 15px; } }
+    .study__answer.oxygen .text {
+      font-size: 1.1rem;
+      line-height: 20px;
+      text-align: left;
+      padding: 0 25px; }
+  .study__uv .study__question {
+    cursor: pointer;
+    height: 50px;
+    text-indent: -9999px;
+    background: url("../img/study/knowledge/knowledge_uv1_ttl.gif") left center no-repeat; }
+    .study__uv .study__question.is-open {
+      background: url("../img/study/knowledge/knowledge_uv1_ttl_o.gif") left center no-repeat;
+      background-size: cover; }
+    @media only screen and (max-width: 768px) {
+      .study__uv .study__question {
+        height: 40px;
+        margin-bottom: 3px;
+        background-size: 100%; } }
+  @media only screen and (max-width: 768px) {
+    .study__uv .study__answer img {
+      width: 100%; } }
+  .study__uv li {
+    width: 50%;
+    float: left; }
+    .study__uv li:nth-child(2) .study__question {
+      background-position: right center; }
+      @media only screen and (max-width: 768px) {
+        .study__uv li:nth-child(2) .study__question {
+          background-position: center center;
+          background-size: 100%; } }
+    @media only screen and (max-width: 768px) {
+      .study__uv li {
+        width: 100%;
+        padding: 0 10px; } }
+  .study__uv .text {
+    font-size: 1.2rem;
+    line-height: 18px;
+    margin: 22px 35px 22px 20px;
+    padding: 0; }
+    @media only screen and (max-width: 768px) {
+      .study__uv .text {
+        font-size: 1.1rem; } }
+  .study__uv--right .study__question {
+    background: url("../img/study/knowledge/knowledge_uv2_ttl.gif") left center no-repeat; }
+    .study__uv--right .study__question.is-open {
+      background: url("../img/study/knowledge/knowledge_uv2_ttl_o.gif") left center no-repeat; }
+  .study__uv--right .text {
+    margin: 22px 35px 22px 32px; }
+  .study__uv--right li {
+    width: 100%;
+    padding: 0 20px 20px 0; }
+    .study__uv--right li .text {
+      float: left;
+      width: 165px;
+      margin: 0 0 0 33px;
+      padding: 0; }
+    .study__uv--right li .img {
+      float: right; }
+  .study__system h4 {
+    padding-top: 30px;
+    margin-bottom: 3px; }
+  .study__system li {
+    width: 50%;
+    float: left; }
+    @media only screen and (max-width: 768px) {
+      .study__system li {
+        width: 100%; } }
+  @media only screen and (max-width: 768px) {
+    .study__system img {
+      max-width: 100%; } }
+  .study__system .text.autobox {
+    font-size: 1.1rem;
+    line-height: 24px;
+    min-height: 70px;
+    padding-bottom: 0; }
+  .study__wearing ul {
+    display: flex;
+    flex-wrap: wrap; }
+    @media only screen and (max-width: 768px) {
+      .study__wearing ul {
+        justify-content: center; } }
+  .study__wearing h3 {
+    margin-bottom: 25px; }
+  @media only screen and (max-width: 768px) {
+    .study__wearing img {
+      max-width: 100%; } }
+  .study__note {
+    border-bottom: 1px solid #d5dadf;
+    padding-bottom: 36px;
+    margin-bottom: 55px; }
+    @media only screen and (max-width: 768px) {
+      .study__note {
+        padding: 0 10px 25px; } }
+    .study__note li {
+      width: 214px;
+      height: 280px;
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 25px; }
+      .study__note li:nth-child(1) {
+        background: url("../img/study/wearing/wearing_note_img01.gif") top center no-repeat;
+        background-size: cover; }
+        @media only screen and (max-width: 480px) {
+          .study__note li:nth-child(1) {
+            background-size: 100%;
+            border-bottom: none; } }
+      .study__note li:nth-child(2) {
+        background: url("../img/study/wearing/wearing_note_img02.gif") top center no-repeat;
+        background-size: cover; }
+        @media only screen and (max-width: 768px) {
+          .study__note li:nth-child(2) {
+            margin-right: 0; } }
+        @media only screen and (max-width: 480px) {
+          .study__note li:nth-child(2) {
+            background-size: 100%;
+            border-bottom: none; } }
+      .study__note li:nth-child(3) {
+        background: url("../img/study/wearing/wearing_note_img03.gif") top center no-repeat;
+        background-size: cover;
+        margin-right: 0; }
+        @media only screen and (max-width: 768px) {
+          .study__note li:nth-child(3) {
+            margin-right: 2%; } }
+        @media only screen and (max-width: 480px) {
+          .study__note li:nth-child(3) {
+            background-size: 100%;
+            border-bottom: none; } }
+      .study__note li:nth-child(4) {
+        background: url("../img/study/wearing/wearing_note_img04.gif") top center no-repeat;
+        background-size: cover;
+        height: 220px; }
+        @media only screen and (max-width: 768px) {
+          .study__note li:nth-child(4) {
+            margin-right: 0; } }
+        @media only screen and (max-width: 480px) {
+          .study__note li:nth-child(4) {
+            background-size: 100%;
+            border-bottom: none; } }
+      .study__note li:nth-child(5) {
+        background: url("../img/study/wearing/wearing_note_img05.gif") top center no-repeat;
+        background-size: cover;
+        height: 220px;
+        width: 453px;
+        margin-right: 0; }
+        @media only screen and (max-width: 768px) {
+          .study__note li:nth-child(5) {
+            width: 100%; } }
+        @media only screen and (max-width: 480px) {
+          .study__note li:nth-child(5) {
+            background-size: 100%;
+            border-bottom: none; }
+            .study__note li:nth-child(5) .text {
+              padding-top: 100px; } }
+      .study__note li .text {
+        font-size: 1.1rem;
+        line-height: 20px;
+        padding: 140px 20px;
+        padding-bottom: 0; }
+        @media only screen and (max-width: 480px) {
+          .study__note li .text {
+            font-size: .9rem;
+            line-height: 16px;
+            padding-top: 120px; } }
+      @media only screen and (max-width: 768px) {
+        .study__note li {
+          width: 49%;
+          margin-right: 2%;
+          margin-bottom: 2%;
+          border-bottom: 1px solid #ddd; } }
+      @media only screen and (max-width: 480px) {
+        .study__note li {
+          width: 60%;
+          margin-right: 0; } }
+  .study__wear {
+    border-bottom: 1px solid #d5dadf;
+    padding-bottom: 58px;
+    margin-bottom: 55px; }
+    .study__wear ul {
+      margin-top: 13px; }
+    .study__wear li {
+      float: left;
+      text-align: center;
+      background: url("../img/study/wearing/line_dot_h.gif") top right repeat-y; }
+      .study__wear li:nth-child(1) {
+        width: 164px; }
+        .study__wear li:nth-child(1) .text {
+          padding-left: 0; }
+        @media only screen and (max-width: 768px) {
+          .study__wear li:nth-child(1) {
+            width: 24%; } }
+      .study__wear li:nth-child(2) {
+        width: 184px; }
+        @media only screen and (max-width: 768px) {
+          .study__wear li:nth-child(2) {
+            width: 24%; } }
+      .study__wear li:nth-child(3) {
+        width: 184px; }
+        @media only screen and (max-width: 768px) {
+          .study__wear li:nth-child(3) {
+            width: 24%; } }
+      .study__wear li:nth-child(4) {
+        width: 160px;
+        background: none; }
+        @media only screen and (max-width: 768px) {
+          .study__wear li:nth-child(4) {
+            width: 24%; } }
+        .study__wear li:nth-child(4) .text {
+          padding-right: 0; }
+    .study__wear .text {
+      padding: 10px 15px 0;
+      font-size: 1.1rem;
+      line-height: 20px;
+      text-align: left; }
+  .study__remove ul {
+    margin-top: 13px; }
+  .study__remove li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background: url("../img/study/wearing/line_dot_h.gif") top right repeat-y; }
+    .study__remove li:nth-child(1) {
+      width: 164px; }
+      .study__remove li:nth-child(1) .text {
+        padding-left: 0; }
+      @media only screen and (max-width: 768px) {
+        .study__remove li:nth-child(1) {
+          width: 33%; } }
+    .study__remove li:nth-child(2) {
+      width: 183px; }
+      @media only screen and (max-width: 768px) {
+        .study__remove li:nth-child(2) {
+          width: 33%; } }
+    .study__remove li:nth-child(3) {
+      width: 162px;
+      background: none; }
+      @media only screen and (max-width: 768px) {
+        .study__remove li:nth-child(3) {
+          width: 33%; } }
+      .study__remove li:nth-child(3) .text {
+        padding-right: 0; }
+    @media only screen and (max-width: 768px) {
+      .study__remove li img {
+        zoom: .5; } }
+  .study__remove .text {
+    padding: 10px 15px 0 15px;
+    font-size: 1.1rem;
+    line-height: 20px;
+    text-align: left; }
+    @media only screen and (max-width: 768px) {
+      .study__remove .text {
+        padding: 10px 10px 0 10px; } }
+  .study__remove span {
+    display: block;
+    color: #737373; }
+  @media only screen and (max-width: 768px) {
+    .study__care {
+      padding: 0 10px; }
+      .study__care h2 {
+        margin-bottom: 20px; } }
+  .study__howto h3 {
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .study__howto h3 {
+        margin-bottom: 5px; } }
+  .study__howto img {
+    max-width: 100%; }
+  .study__howto ul {
+    margin-top: 13px;
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 768px) {
+      .study__howto ul img {
+        zoom: .6; } }
+    @media only screen and (max-width: 480px) {
+      .study__howto ul img {
+        zoom: .4; } }
+  .study__howto li {
+    float: left;
+    text-align: center;
+    background: url("../img/study/wearing/line_dot_h.gif") top right repeat-y;
+    min-height: 270px; }
+    @media only screen and (max-width: 768px) {
+      .study__howto li {
+        min-height: 250px; } }
+    .study__howto li:nth-child(1) {
+      width: 164px; }
+      .study__howto li:nth-child(1) .text {
+        padding-left: 0; }
+      @media only screen and (max-width: 768px) {
+        .study__howto li:nth-child(1) {
+          width: 25%; } }
+    .study__howto li:nth-child(2) {
+      width: 184px; }
+      @media only screen and (max-width: 768px) {
+        .study__howto li:nth-child(2) {
+          width: 25%; } }
+    .study__howto li:nth-child(3) {
+      width: 184px; }
+      @media only screen and (max-width: 768px) {
+        .study__howto li:nth-child(3) {
+          width: 25%; } }
+    .study__howto li:nth-child(4) {
+      width: 160px;
+      background: none; }
+      @media only screen and (max-width: 768px) {
+        .study__howto li:nth-child(4) {
+          width: 25%; } }
+      .study__howto li:nth-child(4) .text {
+        padding-right: 0; }
+  .study__howto .text {
+    padding: 10px 15px 0;
+    font-size: 1.1rem;
+    line-height: 20px;
+    text-align: left; }
+    @media only screen and (max-width: 768px) {
+      .study__howto .text {
+        padding: 10px 10px 0; } }
+    @media only screen and (max-width: 480px) {
+      .study__howto .text {
+        font-size: .9rem;
+        line-height: 16px; } }
+  .study__howto .note {
+    padding-left: 10px;
+    font-size: 1.1rem;
+    line-height: 20px;
+    color: #737373; }
+    @media only screen and (max-width: 768px) {
+      .study__howto .note {
+        font-size: 1rem;
+        line-height: 15px; } }
+  .study__howto .study__question {
+    height: 48px;
+    margin: 30px 0 10px;
+    cursor: pointer; }
+    @media only screen and (max-width: 768px) {
+      .study__howto .study__question {
+        height: auto; } }
+  .study__howto .study__answer {
+    margin-top: 25px; }
+    @media only screen and (max-width: 768px) {
+      .study__howto .study__answer img {
+        zoom: .7; } }
+    .study__howto .study__answer .img {
+      float: left; }
+      @media only screen and (max-width: 768px) {
+        .study__howto .study__answer .img {
+          width: 30%; } }
+    .study__howto .study__answer .text {
+      padding: 0;
+      width: 346px;
+      float: right;
+      font-size: 1.1rem;
+      line-height: 24px; }
+      @media only screen and (max-width: 768px) {
+        .study__howto .study__answer .text {
+          width: 70%;
+          padding-left: 2%; } }
+      @media only screen and (max-width: 480px) {
+        .study__howto .study__answer .text {
+          font-size: .9rem;
+          line-height: 18px; } }
+  .study__careful {
+    margin-top: 100px; }
+    @media only screen and (max-width: 768px) {
+      .study__careful {
+        margin-top: 40px; } }
+    .study__careful h3 {
+      margin-bottom: 30px; }
+    .study__careful .study__list li {
+      width: 214px;
+      height: 280px;
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 25px; }
+      .study__careful .study__list li:nth-child(1) {
+        background: url("../img/study/care/care_careful_img01.gif") top center no-repeat;
+        background-size: cover; }
+        @media only screen and (max-width: 768px) {
+          .study__careful .study__list li:nth-child(1) {
+            background-size: 99%; } }
+      .study__careful .study__list li:nth-child(2) {
+        background: url("../img/study/care/care_careful_img02.gif") top center no-repeat;
+        background-size: cover; }
+        @media only screen and (max-width: 768px) {
+          .study__careful .study__list li:nth-child(2) {
+            background-size: 99%; } }
+      .study__careful .study__list li:nth-child(3) {
+        background: url("../img/study/care/care_careful_img03.gif") top center no-repeat;
+        background-size: cover;
+        margin-right: 0; }
+        @media only screen and (max-width: 768px) {
+          .study__careful .study__list li:nth-child(3) {
+            background-size: 99%; } }
+        @media only screen and (max-width: 480px) {
+          .study__careful .study__list li:nth-child(3) {
+            margin-right: 2%; } }
+      .study__careful .study__list li .text {
+        font-size: 1.1rem;
+        line-height: 20px;
+        padding: 140px 20px;
+        padding-bottom: 0; }
+        @media only screen and (max-width: 768px) {
+          .study__careful .study__list li .text {
+            font-size: .9rem;
+            line-height: 15px;
+            padding: 75px 10px 0; } }
+      @media only screen and (max-width: 768px) {
+        .study__careful .study__list li {
+          width: 32%;
+          margin-right: 2%; } }
+      @media only screen and (max-width: 480px) {
+        .study__careful .study__list li {
+          width: 49%; }
+          .study__careful .study__list li:nth-child(even) {
+            margin-right: 0; } }
+    .study__careful .study__question {
+      cursor: pointer;
+      height: 50px;
+      text-indent: -9999px;
+      margin-bottom: 25px;
+      background: url("../img/study/care/care_faq02_ttl.gif") left center no-repeat; }
+  @media only screen and (max-width: 768px) {
+    .study__faq {
+      display: flex;
+      justify-content: space-between; } }
+  .study__faq li {
+    width: 48%;
+    float: left; }
+    .study__faq li:nth-child(1) {
+      margin-right: 27px; }
+      .study__faq li:nth-child(1) .study__question {
+        background: url("../img/study/care/care_faq02_ttl.gif") left center no-repeat; }
+        @media only screen and (max-width: 768px) {
+          .study__faq li:nth-child(1) .study__question {
+            background-size: contain; } }
+      .study__faq li:nth-child(1) .is-open {
+        background: url("../img/study/care/care_faq02_ttl_o.gif") left center no-repeat; }
+        @media only screen and (max-width: 768px) {
+          .study__faq li:nth-child(1) .is-open {
+            background-size: contain; } }
+    .study__faq li:nth-child(2) {
+      margin-right: 0; }
+      .study__faq li:nth-child(2) .study__question {
+        background: url("../img/study/care/care_faq03_ttl.gif") left center no-repeat; }
+        @media only screen and (max-width: 768px) {
+          .study__faq li:nth-child(2) .study__question {
+            background-size: contain; } }
+      .study__faq li:nth-child(2) .is-open {
+        background: url("../img/study/care/care_faq03_ttl_o.gif") left center no-repeat; }
+        @media only screen and (max-width: 768px) {
+          .study__faq li:nth-child(2) .is-open {
+            background-size: contain; } }
+    @media only screen and (max-width: 768px) {
+      .study__faq li {
+        width: 48%; }
+        .study__faq li img {
+          max-width: 100%; } }
+  .study__faq .study__answer {
+    text-align: center; }
+    .study__faq .study__answer .text {
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 20px;
+      padding: 28px 30px 0 30px; }
+      @media only screen and (max-width: 768px) {
+        .study__faq .study__answer .text {
+          padding: 10px 15px 0 15px;
+          font-size: 1rem; } }
+  .study__lens {
+    border-bottom: 1px solid #d5dadf;
+    margin-bottom: 58px;
+    padding-bottom: 38px; }
+    @media only screen and (max-width: 768px) {
+      .study__lens {
+        padding: 0 10px 30px;
+        margin-bottom: 30px; } }
+    .study__lens ul {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap; }
+      @media only screen and (max-width: 480px) {
+        .study__lens ul {
+          justify-content: center; } }
+    .study__lens li {
+      width: 334px;
+      border: 1px solid #e6e9ec;
+      padding: 30px;
+      float: left;
+      margin-right: 24px;
+      margin-bottom: 25px; }
+      .study__lens li:nth-child(even) {
+        margin-right: 0; }
+      @media only screen and (max-width: 768px) {
+        .study__lens li {
+          width: 49%;
+          margin-right: 2%;
+          margin-bottom: 2%;
+          padding: 10px; }
+          .study__lens li img {
+            max-width: 100%; } }
+      @media only screen and (max-width: 480px) {
+        .study__lens li {
+          width: 60%;
+          margin-left: 0;
+          margin-right: 0; } }
+    .study__lens h3 {
+      padding-bottom: 30px; }
+      @media only screen and (max-width: 768px) {
+        .study__lens h3 {
+          padding: 0 0 15px 0; } }
+    .study__lens h4 {
+      margin-bottom: 15px; }
+    .study__lens .text_l {
+      font-size: 1.2rem;
+      line-height: 20px;
+      float: left;
+      width: 170px; }
+      @media only screen and (max-width: 768px) {
+        .study__lens .text_l {
+          font-size: 1.1rem;
+          line-height: 18px;
+          width: 100%; } }
+    .study__lens .text {
+      font-size: 1.2rem;
+      line-height: 20px; }
+    .study__lens .img_r {
+      float: right; }
+      @media only screen and (max-width: 768px) {
+        .study__lens .img_r {
+          display: none; } }
+  .study__sickness h3 {
+    margin-bottom: 35px; }
+    @media only screen and (max-width: 768px) {
+      .study__sickness h3 {
+        padding: 0 10px; } }
+  .study__sickness li {
+    border: 1px solid #e6e9ec;
+    padding: 30px 0;
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 768px) {
+      .study__sickness li {
+        padding: 30px 10px;
+        margin: 0 10px 20px 10px; } }
+  .study__sickness .text {
+    width: 383px;
+    float: left;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    line-height: 20px; }
+    .study__sickness .text h4 {
+      padding-bottom: 13px;
+      margin: 0; }
+    @media only screen and (max-width: 768px) {
+      .study__sickness .text {
+        width: 60%;
+        margin-left: 0px;
+        padding-right: 2%; } }
+    @media only screen and (max-width: 480px) {
+      .study__sickness .text {
+        width: 100%; } }
+  .study__sickness .img_r {
+    float: right;
+    margin-right: 30px; }
+    @media only screen and (max-width: 768px) {
+      .study__sickness .img_r {
+        width: 40%;
+        margin-right: 0px; }
+        .study__sickness .img_r img {
+          max-width: 100%; } }
+    @media only screen and (max-width: 480px) {
+      .study__sickness .img_r {
+        width: 100%;
+        text-align: center; } }
