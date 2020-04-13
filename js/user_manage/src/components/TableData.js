@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import TableDataRow from './TableDataRow';
 
 class TableData extends Component {
+
+    mapDataUser = () => this.props.data.map((value,index) => (
+        <TableDataRow key={index} data={value} />
+    ))    
+
     render() {
         return (
             <div className="col-9">
@@ -15,42 +21,7 @@ class TableData extends Component {
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Nguyễn Văn A</td>
-                        <td>1234567890</td>
-                        <td>Moderator</td>
-                        <td>
-                        <div className="btn-group">
-                            <div className="btn btn-warning sua"><i className="fa fa-edit" />Sửa</div>
-                            <div className="btn btn-danger xoa"><i className="fa fa-delete" />Xóa</div>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Nguyễn Văn A</td>
-                        <td>1234567890</td>
-                        <td>Moderator</td>
-                        <td>
-                        <div className="btn-group">
-                            <div className="btn btn-warning sua"><i className="fa fa-edit" />Sửa</div>
-                            <div className="btn btn-danger xoa"><i className="fa fa-delete" />Xóa</div>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Nguyễn Văn A</td>
-                        <td>1234567890</td>
-                        <td>Moderator</td>
-                        <td>
-                        <div className="btn-group">
-                            <div className="btn btn-warning sua"><i className="fa fa-edit" />Sửa</div>
-                            <div className="btn btn-danger xoa"><i className="fa fa-delete" />Xóa</div>
-                        </div>
-                        </td>
-                    </tr>
+                        { this.mapDataUser() }
                     </tbody>
                 </table>
             </div>

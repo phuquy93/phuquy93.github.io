@@ -23,7 +23,6 @@ class App extends Component {
   }
   
   render() {
-    console.log(this.state.dataUser);
     return (
       <div className="App">
         <Header />  
@@ -31,7 +30,7 @@ class App extends Component {
             <div className="container">
                 <div className="row">
                   <Search doiTT={() => this.doiTT()} hienthiForm={this.state.hienthiForm} />
-                  <TableData />
+                  <TableData data={this.state.dataUser} hienthiForm={this.state.hienthiForm}/>
                   <AddUser hienthiForm={this.state.hienthiForm} />
                 </div>
             </div>     
