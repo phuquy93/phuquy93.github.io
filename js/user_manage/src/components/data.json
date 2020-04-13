@@ -1,0 +1,31 @@
+[
+    {
+       "id" : 1,
+       "name" : "Pacific reim",
+       "tel" : "01545456567",
+       "Permission" :1 
+    },
+    {
+        "id" : 2,
+        "name" : "Iron man",
+        "tel" : "01545456567",
+        "Permission" :2
+     },
+     {
+        "id" : 3,
+        "name" : "Shinada",
+        "tel" : "01545456567",
+        "Permission" :3
+     },
+     {
+        "id" : 4,
+        "name" : "Pacific reim",
+        "tel" : "01545456567",
+        "Permission" :1 
+     },{
+        "id" : 5,
+        "name" : "Pacific reim",
+        "tel" : "01545456567",
+        "Permission" :1 
+     }
+]
