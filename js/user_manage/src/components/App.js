@@ -12,7 +12,8 @@ class App extends Component {
 
     this.state = {
       hienthiForm: false,
-      dataUser : Data
+      dataUser : Data,
+      searchText: ''
     }
   }
 
@@ -21,17 +22,44 @@ class App extends Component {
       hienthiForm: !this.state.hienthiForm
     })
   }
-  
+
+  textTimkiem = (dl) => {
+    this.setState({
+      searchText:dl
+    })
+  }
+
+  getNewUserData = (name,tel,Permission) => {
+    var item = {}
+    item.id = '';
+    item.name = name;
+    item.tel = tel;
+    item.Permission = Permission;
+
+    var items = this.state.dataUser;
+    items.push(item);
+    this.setState({
+      dataUser: items
+    });
+    console.log(items);
+  }
+
   render() {
+    var ketqua = [];
+    this.state.dataUser.forEach( item => {
+      if(item.name.indexOf(this.state.searchText) !== -1) {
+        ketqua.push(item);
+      }
+    });
     return (
       <div className="App">
         <Header />  
           <div className="searchForm">
             <div className="container">
                 <div className="row">
-                  <Search doiTT={() => this.doiTT()} hienthiForm={this.state.hienthiForm} />
-                  <TableData data={this.state.dataUser} hienthiForm={this.state.hienthiForm}/>
-                  <AddUser hienthiForm={this.state.hienthiForm} />
+                  <Search doiTT={() => this.doiTT()} hienthiForm={this.state.hienthiForm} textTimkiem={ (dl) => this.textTimkiem(dl) } />
+                  <TableData data={ketqua} hienthiForm={this.state.hienthiForm}/>
+                  <AddUser getNewUserData={ (name,tel,Permission) => this.getNewUserData(name,tel,Permission) } hienthiForm={this.state.hienthiForm} />
                 </div>
             </div>     
         </div>

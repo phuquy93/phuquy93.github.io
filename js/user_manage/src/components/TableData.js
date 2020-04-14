@@ -5,11 +5,19 @@ class TableData extends Component {
 
     mapDataUser = () => this.props.data.map((value,index) => (
         <TableDataRow key={index} data={value} />
-    ))    
+    ));    
+
+    classElem = () => {
+        if(this.props.hienthiForm) {
+            return "col-9"
+        } else {
+            return "col-12"
+        }
+    }
 
     render() {
         return (
-            <div className="col-9">
+            <div className={ this.classElem() }>
                 <table className="table table-striped table-inverse">
                     <thead>
                     <tr>

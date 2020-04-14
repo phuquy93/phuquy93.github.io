@@ -14,7 +14,7 @@ class TableDataRow extends Component {
     render() {
         return (
             <tr>
-                <td>{this.props.data.id}</td>
+                <td></td>
                 <td>{this.props.data.name}</td>
                 <td>{this.props.data.tel}</td>
                 <td>{this.checkPermission()}</td>
