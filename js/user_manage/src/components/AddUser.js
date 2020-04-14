@@ -18,6 +18,12 @@ class AddUser extends Component {
         this.setState({
             [name]:value
         })
+
+        var item = {};
+        item.id = this.state.id;
+        item.name = this.state.name;
+        item.tel = this.state.tel;
+        item.Permission = this.state.Permission;
     }
 
     kiemtratt = () => {
@@ -41,7 +47,7 @@ class AddUser extends Component {
                         </select>
                         </div>
                         <div className="form-group">
-                        <div className="btn btn-block btn-primary" onClick={(nam,tel,Permission) => this.props.getNewUserData(this.state.name,this.state.tel,this.state.Permission)}>Thêm mới</div>
+                        <div className="btn btn-block btn-primary" onClick={(nam,tel,Permission) => this.props.getNewUserData(this.state.name,this.state.tel,this)}>Thêm mới</div>
                         </div>
                     </div>
                 </div>
