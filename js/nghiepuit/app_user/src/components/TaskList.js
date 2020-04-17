@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import TaskItem from './TaskItem';
 
 class TaskList extends Component {
-    // 3 -- ĐỔ DATA VÀO TASKITEM
-    elmTaskItem = () => this.props.data.map((value,key) => {
-        return <TaskItem key={key} value={ value } />
+    elmTaskItem = () => this.props.data.map((value,index) => {
+        return <TaskItem key={value.id} index={index} value={ value } data={this.props.data} onDelete={ this.props.onDelete } />
     })
     render() {
         return (

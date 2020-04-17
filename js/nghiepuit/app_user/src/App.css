@@ -4,3 +4,11 @@
 .ml-5 {
   margin-left: 5px;
 }
+.panel-heading {
+  position: relative;
+}
+.fa-times {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
