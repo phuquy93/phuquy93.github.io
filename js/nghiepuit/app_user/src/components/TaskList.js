@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TaskItem from './TaskItem';
+import { connect } from 'react-redux';
 
 class TaskList extends Component {
     elmTaskItem = () => this.props.data.map((value,index) => {
@@ -42,4 +43,10 @@ class TaskList extends Component {
     }
 }
 
-export default TaskList;
+const mapStateToProps = (state) => {
+    return {
+        data:state.tasks
+    }
+}
+
+export default connect(mapStateToProps,null)(TaskList);

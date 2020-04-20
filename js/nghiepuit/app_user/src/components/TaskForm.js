@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
+import * as action from './../actions/index';
 
 class TaskForm extends Component {
     constructor(props) {
@@ -24,7 +26,7 @@ class TaskForm extends Component {
 
     onSubmit = (event) => {
         event.preventDefault();
-        this.props.onSubmit(this.state);
+        this.props.onAddTask(this.state);
         this.onClear();
     }
 
@@ -35,13 +37,17 @@ class TaskForm extends Component {
         })
     }
 
+    closeForm = () => {
+        this.props.closeForm();
+    }
+
     render() {
-        var { isdisplayForm } = this.props;
+        console.log(this.props.closeForm());
         return (
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <div className="panel panel-warning">
                     <div className="panel-heading">
-                    <h3 className="panel-title">Thêm Công Việc <i className="fa fa-times" onClick={ isdisplayForm } ></i></h3>
+                    <h3 className="panel-title">Thêm Công Việc <i className="fa fa-times" onClick={ this.closeForm } ></i></h3>
                     </div>
                     <div className="panel-body">
                     <form onSubmit={ this.onSubmit }>
@@ -67,4 +73,21 @@ class TaskForm extends Component {
     }
 }
 
-export default TaskForm;
+const mapStateToProps = () => {
+    return {
+   
+    }
+}
+
+const mapDispatchToProps = (dispatch,props) => {
+    return {
+      onAddTask : (tasks)  => {
+        dispatch(action.addTask(tasks));
+      },
+      closeForm: () => {
+          dispatch(action.closeForm());
+      }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(TaskForm);
