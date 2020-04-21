@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 7 Plus",
+        "image": "https://www.apple.com/v/iphone/home/ag/images/overview/compare/compare_iphone_11_pro__fvqwhr4dkhiu_large.jpg",
+        "description": "Sản phẩm do apple sản phẩm",
+        "price": 200,
+        "inventory": 10
+    },
+    {
+        "id": 2,
+        "name": "Iphone 8 ",
+        "image": "https://www.apple.com/v/iphone/home/ag/images/overview/compare/compare_iphone_11__f0r1z5etd722_large.jpg",
+        "description": "Sản phẩm do apple sản phẩm",
+        "price": 400,
+        "inventory": 15
+    },
+    {
+        "id": 3,
+        "name": "Iphone 11",
+        "image": "https://www.apple.com/v/iphone/home/ag/images/overview/compare/compare_iphone_xr__dexbg7jerlqq_large.jpg",
+        "description": "Sản phẩm do apple sản phẩm",
+        "price": 750,
+        "inventory": 1
+    }
+]
