@@ -5,17 +5,20 @@ import ProductItem from './../components/ProductItem';
 
 class ProductContainer extends Component {
     render() {
-        var { products } = this.props;
+        var { product } = this.props;
         return (
-           <Products> { this.elmProduct(products) } </Products> 
+           <Products> { this.elmProduct(product) } </Products> 
         );
     }
 
-    elmProduct = (products) => {
+    elmProduct = (product) => {
         var result = null;
-        if(products.length > 0) {
-            result = products.map((products, index) => {
-                return <ProductItem key={ index } products={products} />
+        if(product.length > 0) {
+            result = product.map((product, index) => {
+                return <ProductItem 
+                key={ index } 
+                product={product} 
+                 />
             })
         }   
         return result; 
@@ -25,7 +28,7 @@ class ProductContainer extends Component {
 
 const mapStateToProps = state => {
     return {
-        products : state.products
+        product : state.products
     }
 }
 
