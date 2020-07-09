@@ -11,7 +11,10 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="wrapper">
+   <div class="box-loader">
+      <div class="loader"></div>
+   </div>
 	<header class="header header-area">
 		<div class="container">
 			<h1 class="logo">
@@ -46,7 +49,16 @@
 				</ul>
 			</nav>
 			<a class="icon search"><i class="fa fa-search"></i></a>
-		</div>
+      </div>
+      <div class="new-search-wrap">
+         <span class="searchclose-link"></span>
+         <div class="search-container" >
+           <form role="search" method="get" id="searchform" class="searchform search-wrapper" action="/">
+               <input type="text" value="" name="s" id="searchBox" class="searchInput" placeholder="Nhập địa điểm, khu dân cư, tòa nhà">
+               <input type="submit" id="searchsubmit" class="btn btn-default" value="Tìm kiếm">
+           </form>  
+         </div>
+      </div>
 	</header>
 	<main class="main">
 		<div id="banner" class="banner">

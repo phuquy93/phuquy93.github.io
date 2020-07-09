@@ -17,5 +17,21 @@ document.addEventListener("DOMContentLoaded",function() {
                 status=true;
             }
         }
-    })
+    });
+
+    const elmSearch = document.querySelector(".search");
+    const elmCloseSearch = document.querySelector(".searchclose-link");
+    elmSearch.addEventListener("click",()=>{
+        document.querySelector(".new-search-wrap").classList.add("open");
+        document.querySelector(".wrapper").classList.add("show");
+    });
+    elmCloseSearch.addEventListener("click",()=>{
+        document.querySelector(".new-search-wrap").classList.remove("open");
+        document.querySelector(".wrapper").classList.remove("show");
+    });
+
+    setTimeout(()=>{
+        document.querySelector(".box-loader").style.opacity="0";
+        document.querySelector(".box-loader").style.visibility="hidden";
+    },3000);
 })
