@@ -4,7 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="images/favicon.ico">
 	<title>SaleReal - Công ty môi giới bất động sản hàng đầu Việt Nam</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://c-fuji.or.jp/wp-content/themes/fuji/js/slick/slick.css"/>
@@ -48,7 +49,15 @@
 					</li>
 				</ul>
 			</nav>
-			<a class="icon search"><i class="fa fa-search"></i></a>
+         <a class="icon search"><i class="fa fa-search"></i></a>
+         <a class="nav-button">
+            <span id="nav-icon3">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+            </span>
+         </a>
       </div>
       <div class="new-search-wrap">
          <span class="searchclose-link"></span>
@@ -550,13 +559,20 @@
         arrows: true,
         slidesToShow: 5,
         autoplay: false,
+        centerMode: true,
         prevArrow: '<div class="slick-prev slick-arrow"><i class="fa fa-angle-left"></i></div>',
         nextArrow: '<div class="slick-next slick-arrow"><i class="fa fa-angle-right"></div>',
         responsive: [{
                 breakpoint: 768,
                 settings: {
-                    variableWidth: false,
-                    rows: 3,
+                  slidesToShow: 1,
+                  centerMode: true,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 3,
                 }
             },
         ]
@@ -570,8 +586,13 @@
         responsive: [{
                 breakpoint: 768,
                 settings: {
-                    variableWidth: false,
-                    rows: 3,
+                  slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 4,
                 }
             },
         ]

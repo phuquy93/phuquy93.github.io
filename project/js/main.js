@@ -34,4 +34,12 @@ document.addEventListener("DOMContentLoaded",function() {
         document.querySelector(".box-loader").style.opacity="0";
         document.querySelector(".box-loader").style.visibility="hidden";
     },3000);
+
+    const elmBtnMenuSp = document.getElementById("nav-icon3");
+    const elmMenu2 = document.querySelector(".menu");
+    elmBtnMenuSp.addEventListener("click",()=>{
+        document.querySelector(".wrapper").classList.toggle("mm-wrapper_opened");
+        document.querySelector(".wrapper").classList.toggle("show");
+        elmMenu2.classList.toggle("mm-panel_opened");
+    })
 })
