@@ -667,5 +667,21 @@
          scrollTop: 0
       }, 1000);
   });
+
+  $(".menu > ul > li a").click(function(e){
+     e.preventDefault();
+    var label = $(this);
+    var parent = label.parent('li');
+    var list = label.siblings('ul');
+
+    if ( parent.hasClass('is-open') ) {
+      list.css({'height':"0",'display':"none"});
+     parent.removeClass('is-open');
+    }
+    else {
+      list.css({'height':"auto",'display':"block"});
+      parent.addClass('is-open');
+    }
+  });
 </script>
 </html>
