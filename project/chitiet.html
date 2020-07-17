@@ -133,29 +133,6 @@
                         <p style="background: url(images/img-16-810x430.jpg);"></p>
                     </div>
                 </div>
-                <div class="slide-detail-bottom">
-                    <p>
-                        <img src="images/1MKT_Eco-green_MKT_view-balcon-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/banner-eco-green-sai-gon-1024x512-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/cover-des-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/nha-mau-du-an-can-ho-chung-cu-eco-green-sai-gon-quan-7-bep-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/1CH_B4-1-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/So-do-vi-tri2-810x430.jpg" alt="image">
-                    </p>
-                    <p>
-                        <img src="images/img-16-810x430.jpg" alt="image">
-                    </p>
-                </div>
             </div>
             <div class="content-detail">
                 <div id="detail" class="detail-list detail-block target-block">
@@ -166,7 +143,7 @@
                         <ul class="list-two-col">
                             <li><strong>Giá:</strong> 35,000,000VND/m2</li>
                             <li><strong>Diện tích:</strong> 6500 m2</li>
-                            <li class="prop_type"><strong>Loại:</strong> Căn hộ, chung cư</li>
+                            <li class="prop_type"><strong>Chủ đầu tư:</strong> SUNSHINE</li>
                             <li class="prop_status"><strong>Địa chỉ:</strong> Nguyễn Văn Linh Quận 7 </li>
                         </ul>
                     </div>
@@ -357,30 +334,30 @@
                             class="wp-image-4281 size-full aligncenter" src="images/img-16.jpg"
                             alt="TIEN-ICH-NGOAI-KHU-DU-AN-ECO-GREEN-SAI-GON"></p>
                     <p style="text-align: center;">Khu tiện ích</p>
-                    <div class="contactBlock">
-                        <p ><span><strong>CẦN TƯ VẤN</strong></span></p>
-                        <div class="block-contact-detailPost">
-                            <form action="" method="post" class="register-form">
-                                <p class="label">Họ Tên</p>
-                                <p><span class="form-control-wrap name"><input type="text" name="name" value="" size="40"
-                                            class="form-control text"></span></p>
-                                <p class="label">Số điện thoại</p>
-                                <p><span class="form-control-wrap phone"><input type="tel" name="phone" value="" size="40"
-                                            class="form-control text tel"></span></p>
-                                <p class="label">Email</p>
-                                <p><span class="form-control-wrap email"><input type="email" name="email" value="" size="40"
-                                            class="form-control text email"></span></p>
-                                <p><span class="form-control-wrap urlpage"><input type="hidden" name="urlpage" value="" size="40"
-                                            class="form-control dynamictext"></span><input type="submit" value="GỬI"
-                                        class="form-control submit btn-grad w200 m-0"></p>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- End block contact -->
                 </div>
                 <!-- End  property description -->
             </div>
             <!-- End content detail -->
+            <div class="contactBlock">
+                <p ><span><strong>CẦN TƯ VẤN</strong></span></p>
+                <div class="block-contact-detailPost">
+                    <form action="" method="post" class="register-form">
+                        <p class="label">Họ Tên</p>
+                        <p><span class="form-control-wrap name"><input type="text" name="name" value="" size="40"
+                                    class="form-control text"></span></p>
+                        <p class="label">Số điện thoại</p>
+                        <p><span class="form-control-wrap phone"><input type="tel" name="phone" value="" size="40"
+                                    class="form-control text tel"></span></p>
+                        <p class="label">Email</p>
+                        <p><span class="form-control-wrap email"><input type="email" name="email" value="" size="40"
+                                    class="form-control text email"></span></p>
+                        <p><span class="form-control-wrap urlpage"><input type="hidden" name="urlpage" value="" size="40"
+                                    class="form-control dynamictext"></span><input type="submit" value="GỬI"
+                                class="form-control submit btn-grad"></p>
+                    </form>
+                </div>
+            </div>
+            <!-- End block contact -->
             <div class="property-similer">
                 <div class="detail-title">
                     <h2 class="title-left">DỰ ÁN LIÊN QUAN</h2>
@@ -650,24 +627,11 @@
     $('.slide-detail-top').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slide-detail-bottom'
-    });
-    $('.slide-detail-bottom').slick({
-        slidesToShow: 7,
-        slidesToScroll: 1,
-        asNavFor: '.slide-detail-top',
-        dots: false,
-        focusOnSelect: true,
-        responsive: [{
-                breakpoint: 767,
-                settings: {
-                  slidesToShow: 5,
-                  arrows: false,
-                }
-            },
-        ]
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="fa fa-angle-right"></div>',
     });
     $('.btnTop').click(function () {
         $('html,body').animate({
