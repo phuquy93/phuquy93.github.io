@@ -626,11 +626,17 @@
             },
         ]
     });
-
-    $('.btnTop').click(function () {
-        $('html,body').animate({
-            scrollTop: 0
-        }, 1000);
+    // Toggle active form parallax
+    const elmBtnPopup = document.querySelector(".btnPopup");
+    const elmblockContactClose2 = document.querySelector(".block-contact__close2");
+    const elmRegisterNow = document.querySelector(".register-now");
+    elmBtnPopup.addEventListener("click",()=>{
+        elmRegisterNow.classList.add("active");
+        document.querySelector(".wrapper").classList.add("show");
+    });
+    elmblockContactClose2.addEventListener("click",()=>{
+        elmRegisterNow.classList.remove("active");
+        document.querySelector(".wrapper").classList.remove("show");
     });
 </script>
 
